@@ -1,3 +1,193 @@
 body {
   background: grey;
 }
+
+.container {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  margin-top: 8%;
+  border: 5px solid #fff;
+}
+
+.head {
+  position: absolute;
+  width: 29%;
+  height: 60%;
+  top: 10%;
+  left: 38%;
+  border: 3px solid #000;
+  border-radius: 50%;
+  background: #7c520e;
+}
+
+.head_copy {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #7c520e;
+  z-index: 2;
+}
+
+.left_ear {
+  position: absolute;
+  width: 25%;
+  height: 15%;
+  top: -3%;
+  left: 10%;
+  background: #75520e;
+  border: 3px solid #000;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.right_ear {
+  position: absolute;
+  width: 25%;
+  height: 15%;
+  top: -3%;
+  right: 10%;
+  background: #75520e;
+  border: 3px solid #000;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.inner_ear {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 15%;
+  left: 10%;
+  background: #000;
+  border-radius: 50%;
+}
+
+.left_cheek {
+  position: absolute;
+  width: 100%;
+  height: 66%;
+  top: 50%;
+  left: -57%;
+  background: #75520e;
+  border: 3px solid #000;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.right_cheek {
+  position: absolute;
+  width: 100%;
+  height: 66%;
+  top: 50%;
+  right: -57%;
+  background: #75520e;
+  border: 3px solid #000;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left_eye {
+  position: absolute;
+  width: 51%;
+  height: 49%;
+  top: 15%;
+  left: 2%;
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.right_eye {
+  position: absolute;
+  width: 51%;
+  height: 49%;
+  top: 15%;
+  right: 2%;
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.left_eye_copy {
+  position: absolute;
+  width: 51%;
+  height: 50%;
+  top: 16%;
+  left: 4%;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.right_eye_copy {
+  position: absolute;
+  width: 51%;
+  height: 50%;
+  top: 16%;
+  right: 4%;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.pupil {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  bottom: 30%;
+  left: 33%;
+  background: #000;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.nostril {
+  position: absolute;
+  width: 97%;
+  height: 60%;
+  bottom: -21%;
+  background: #75520e;
+  border: 2px solid #000;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.nose {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: -6%;
+  left: 24%;
+  background: pink;
+  border: 1px solid #000;
+  border-radius: 41px;
+}
+
+.left_tooth {
+  position: absolute;
+  width: 32%;
+  height: 50%;
+  top: 85%;
+  left: 17%;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 2px;
+  z-index: 1;
+}
+
+.right_tooth {
+  position: absolute;
+  width: 32%;
+  height: 50%;
+  top: 85%;
+  right: 17%;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 2px;
+  z-index: 1;
+}
